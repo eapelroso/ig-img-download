@@ -10,6 +10,13 @@
     "48": "icons/ig-img-download-48.png"
   },
 
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "downloads",
+    "downloads.open"
+  ],
+  
   "content_scripts": [
     {
       "matches": ["*://*.instagram.com/*"],
