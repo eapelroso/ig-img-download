@@ -16,12 +16,9 @@
     "downloads",
     "downloads.open"
   ],
-  
-  "content_scripts": [
-    {
-      "matches": ["*://*.instagram.com/*"],
-      "js": ["ig-img-download.js"]
-    }
-  ]
+
+  "background": {
+    "scripts": ["background.js"]
+  }
 
 }
