@@ -1,12 +1,22 @@
-browser.contextMenus.create({
+browser.contextMenus.create(
+{
   id: "download-image",
-  title: "Download IG image"
+  title: "Remove IG overlay"
 });
 
-browser.contextMenus.onClicked.addListener(function(info, tab) {
-  if (info.menuItemId == "download-image") {
-    browser.tabs.executeScript({
-      file: "ig-img-download.js"
-    });
-  }
+browser.contextMenus.onClicked.addListener(function(info, tab) 
+{
+	if (info.menuItemId == "download-image") 
+	{
+	    browser.tabs.executeScript({
+	      file: "ig-img-download.js"	   
+	    });
+
+	}
 });
+
+
+
+
+
+
