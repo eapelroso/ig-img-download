@@ -1,2 +1,3 @@
 # ig-img-download
-Firefox Add-On for download pictures from instagram. Currently, you need to load it manually like a temporary add-on by opening the url about:debugging (in firefox). Or you can see this tutorial https://riptutorial.com/firefox-addon/example/26613/installing-a-temporary-add-on
+Firefox Add-On for download pictures from instagram. By now, it simply adds a context menu where you can remove the picture overlay and click the browser "Save picture as" option.
+Currently, you need to load it manually like a temporary add-on by opening the url about:debugging (in firefox). Or you can see this tutorial https://riptutorial.com/firefox-addon/example/26613/installing-a-temporary-add-on
