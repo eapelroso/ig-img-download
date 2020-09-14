@@ -4,6 +4,7 @@ browser.contextMenus.create(
   title: "Remove IG overlay"
 });
 
+
 browser.contextMenus.onClicked.addListener(function(info, tab) 
 {
 	if (info.menuItemId == "download-image") 
