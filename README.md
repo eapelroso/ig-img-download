@@ -1,2 +1,2 @@
 # ig-img-download
-Download IG images. 
+Firefox Add-On for download pictures from instagram. Currently, you need to load it manually like a temporary add-on by opening the url about:debugging (in firefox). Or you can see this tutorial https://riptutorial.com/firefox-addon/example/26613/installing-a-temporary-add-on
