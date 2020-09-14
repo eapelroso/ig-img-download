@@ -4,7 +4,7 @@
   "name": "IG Img Download",
   "version": "1.0",
  
-  "description": "Download images from IG directly.",
+  "description": "Remove IG pictures overlay, so you can download them.",
 
   "icons": {
     "48": "icons/ig-img-download-48.png"

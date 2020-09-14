@@ -24,9 +24,6 @@ function assignEvents(){
 	{
 		previousButtons[i].addEventListener("click", function() { removeOverlays(); } );		
 	}
-
-	console.log(nextButtons);
-	console.log(previousButtons);
 }
 
 assignEvents();
